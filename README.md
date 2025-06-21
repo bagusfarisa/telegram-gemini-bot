@@ -17,7 +17,7 @@ A Telegram bot that delivers daily news summaries from Indonesia using Google's 
 - Python 3.11+
 - A Telegram bot token from [@BotFather](https://t.me/botfather)
 - A Google Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
-- A Telegram chat ID where the bot will send messages.[How to get one](https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a)
+- A Telegram chat ID where the bot will send messages. [How to get Chat ID](https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a).
 
 ### Installation
 
