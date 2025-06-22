@@ -94,7 +94,15 @@ def main():
         return
     
     # Create daily prompt
-    prompt = "Give me a brief summary of today's news from Indonesia. Focus on 5 most important events and avoid unnecessary details. Don't repeat the same news and make sure it's only a single list of news. Give short headline for each news with this format '1. {Headline Title}' and then start a new line. Give 1 line spacing between news items. Don't use any markdown styling."
+    prompt = """
+    Give me a brief summary of today's news from Indonesia.
+    Focus on 5 most important events and avoid unnecessary details.
+    Don't repeat the same news and make sure it's only a single list of news.
+    Give short headline for each news with this format '1. {Headline Title}' and then start a new line.
+    Give 1 line spacing between news items. Don't use any markdown styling.
+    Start directly with the list. No need for any introduction.
+    Also end directly with the list. No need for any closing remark.
+    """
     
     # Get Gemini response
     print(f"Getting Gemini response for prompt: {prompt}")
