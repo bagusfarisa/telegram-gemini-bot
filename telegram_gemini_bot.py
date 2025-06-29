@@ -62,7 +62,7 @@ def get_gemini_response(api_key, prompt):
         # Make the request with grounding
         print("DEBUG: Making API request...")
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-2.5-pro",
             contents=prompt,
             config=config,
         )
